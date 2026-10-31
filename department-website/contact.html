@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Department of Computer Science and Engineering, Example College of Engineering">
+  <title>Contact | CSE Department</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <img src="images/logo.svg" alt="CSE Department logo" width="72" height="72">
+    <div>
+      <h1>Department of Computer Science and Engineering</h1>
+      <p>Example College of Engineering</p>
+    </div>
+  </header>
+
+  <nav aria-label="Main navigation">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="faculty.html">Faculty</a></li>
+        <li><a href="programmes.html">Programmes</a></li>
+        <li><a href="facilities.html">Facilities</a></li>
+        <li><a href="contact.html" class="active" aria-current="page">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <address>
+        Department of Computer Science and Engineering<br>
+        Example College of Engineering, Main Road<br>
+        Kochi, Kerala 682001<br>
+        Phone: <a href="tel:+910000000000">+91 00000 00000</a><br>
+        Email: <a href="mailto:cse@example.edu">cse@example.edu</a>
+      </address>
+    </section>
+
+    <section id="enquiry">
+      <h2>Student Enquiry Form</h2>
+      <form action="#" method="post">
+        <p>
+          <label for="name">Full name</label>
+          <input type="text" id="name" name="name" required>
+        </p>
+        <p>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </p>
+        <p>
+          <label for="phone">Phone number</label>
+          <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="10-digit number" required>
+        </p>
+        <p>
+          <label for="course">Course preference</label>
+          <select id="course" name="course" required>
+            <option value="">Select a course</option>
+            <option value="btech">B.Tech CSE</option>
+            <option value="mtech">M.Tech Computer Science</option>
+          </select>
+        </p>
+        <button type="submit">Send enquiry</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Department of Computer Science and Engineering, Example College of Engineering.</p>
+    <p><small>Prepared by Amith Biju (FIT23CS033), S7 CSE A.</small></p>
+  </footer>
+
+</body>
+</html>

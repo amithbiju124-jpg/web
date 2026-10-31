@@ -1,0 +1,35 @@
+/* CSE Department website styles */
+:root { --ink:#12263f; --paper:#f6f8fa; --accent:#0b7285; --gold:#e8a317; --line:#ccd5de; }
+* { box-sizing: border-box; }
+body { margin:0; font-family: "Segoe UI", Arial, sans-serif; line-height:1.65; color:#1c2733; background:var(--paper); }
+h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; color:var(--ink); line-height:1.25; }
+header { display:flex; align-items:center; gap:1rem; padding:1.2rem 2rem; background:var(--ink); color:#fff; }
+header h1 { color:#fff; margin:0; font-size:1.5rem; }
+header p { margin:.2rem 0 0; color:#c9d6e4; }
+nav { background:#fff; border-bottom:3px solid var(--gold); }
+nav ul { list-style:none; display:flex; flex-wrap:wrap; gap:.25rem; margin:0; padding:0 1.5rem; }
+nav a { display:block; padding:.8rem 1rem; color:var(--ink); text-decoration:none; font-weight:600; }
+nav a:hover, nav a.active { background:var(--ink); color:#fff; }
+main { max-width:960px; margin:0 auto; padding:1.5rem 2rem 2.5rem; }
+a { color:var(--accent); }
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible { outline:3px solid var(--gold); outline-offset:2px; }
+mark { background:#ffe9a8; padding:0 .2em; }
+article { background:#fff; border:1px solid var(--line); border-radius:6px; padding:.5rem 1.25rem 1rem; margin:1rem 0; }
+table { width:100%; border-collapse:collapse; background:#fff; }
+caption { text-align:left; font-weight:600; padding:.5rem 0; }
+th, td { padding:.65rem .8rem; border:1px solid var(--line); text-align:left; }
+thead th { background:var(--ink); color:#fff; }
+tbody tr:nth-child(even) { background:#eef3f7; }
+dt { font-weight:600; float:left; clear:left; width:8rem; }
+dd { margin:0 0 .4rem 8rem; }
+figure { margin:0; }
+img { max-width:100%; height:auto; }
+figcaption { font-size:.9rem; color:#4a5a6a; }
+form p { margin:.9rem 0; }
+label { display:block; font-weight:600; margin-bottom:.25rem; }
+input, select { width:100%; max-width:420px; padding:.55rem; border:1px solid #8a9aaa; border-radius:4px; font:inherit; }
+button { padding:.65rem 1.4rem; border:0; border-radius:4px; background:var(--accent); color:#fff; font:inherit; font-weight:600; cursor:pointer; }
+button:hover { background:#095c6b; }
+footer { text-align:center; padding:1rem; background:var(--ink); color:#c9d6e4; }
+footer p { margin:.2rem 0; }
+@media (max-width:600px) { header { flex-direction:column; text-align:center; } main { padding:1rem; } dt { float:none; width:auto; } dd { margin-left:0; } }

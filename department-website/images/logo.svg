@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" width="72" height="72" role="img" aria-label="CSE logo">
+  <rect width="72" height="72" rx="14" fill="#e8a317"/>
+  <rect x="6" y="6" width="60" height="60" rx="10" fill="#12263f"/>
+  <path d="M28 24 L16 36 L28 48" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M44 24 L56 36 L44 48" fill="none" stroke="#e8a317" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M39 22 L33 50" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+</svg>
